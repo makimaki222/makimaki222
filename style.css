@@ -1,0 +1,46 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(232, 158, 241);
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center; /* Center text in the container */
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif_container {
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 20px; /* Space above buttons */
+}
+
+.buttons {
+    background-color: #ffffff;
+    color: rgb(233, 48, 48);
+    padding: 15px 32px;
+    font-size: 1.5vw; /* Responsive font size */
+    margin: 0 10px; /* Space between buttons */
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
